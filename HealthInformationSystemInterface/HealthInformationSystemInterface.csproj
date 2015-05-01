@@ -57,12 +57,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ERD.png" />
     <Content Include="login.cshtml">
       <BrowseToURL>~/login</BrowseToURL>
     </Content>
     <Content Include="appointments.cshtml">
       <BrowseToURL>~/appointments</BrowseToURL>
     </Content>
+    <Content Include="employees.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="MedicalProfessionals.cshtml">
+      <BrowseToURL>~/medicalproffessionals</BrowseToURL>
+    </Content>
+    <Content Include="index.cshtml" />
+    <Content Include="patient_profile.cshtml" />
     <None Include="Properties\PublishProfiles\TheATeamInterface.pubxml" />
     <Content Include="ailments.cshtml">
       <BrowseToURL>~/ailments</BrowseToURL>
